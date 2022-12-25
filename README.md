@@ -1,1 +1,9 @@
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Seblessa)](https://github.com/anuraghazra/github-readme-stats&theme=tokyonight)
+# Stats
+
+<p align=center>
+  <br />
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=digaso&layout=compact&theme=tokyonight&langs_count=6" />
+  <br />
+  <br />
+</p>
