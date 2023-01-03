@@ -4,7 +4,7 @@ I am a bachelor's student of Artificial Inteligence and Data Science at Universi
 
 ## Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=digaso&count_private=true&show_icons=true&theme=tokyonight&hide=contribs,prs" />
+<img src="https://github-readme-stats.vercel.app/api?username=Seblessa&count_private=true&show_icons=true&theme=tokyonight&hide=contribs,prs" />
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Seblessa&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
 
