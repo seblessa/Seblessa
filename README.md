@@ -1,4 +1,3 @@
-### Hi There 👋
 # About Me
 I am a bachelor's student of Artificial Inteligence and Data Science at University of Porto.
 
