@@ -5,7 +5,7 @@ I am a bachelor's student of Artificial Inteligence and Data Science at Universi
 
 <img src="https://komarev.com/ghpvc/?username=Seblessa&style=flat-square&color=blue" alt=""/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Seblessa&count_private=true&show_icons=false&theme=tokyonight&hide=contribs,prs" />
+<img src="https://github-readme-stats.vercel.app/api?username=Seblessa&count_private=true&show_icons=true&theme=tokyonight&hide=contribs,prs" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seblessa&layout=compact&theme=tokyonight&langs_count=6" />
 
