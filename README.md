@@ -9,6 +9,8 @@ I am a bachelor's student of Artificial Intelligence and Data Science at Faculda
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seblessa&count_private=true&layout=compact&theme=tokyonight&langs_count=6&hide=CSS,jupyter%20notebook" />
 
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Seblessa)](https://github.com/anuraghazra/github-readme-stats)
+
 <div>
   
   <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
