@@ -24,6 +24,6 @@ My main working station is a macbook pro 13. I use the hyper terminal with zsh.
 
 Here are the configurations:
 
-- [hyper.js](hyper.js)
+- [.hyper.js](.hyper.js)
 - [.zshrc](.zshrc)
 - [.p10k.zsh](.p10k.zsh)
