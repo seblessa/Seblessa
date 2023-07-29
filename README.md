@@ -28,9 +28,6 @@ Here are the configurations:
 
 <img src="https://komarev.com/ghpvc/?username=Seblessa&style=flat-square&color=blue" alt=""/>
 
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seblessa&count_private=true&layout=compact&theme=tokyonight&langs_count=6&hide=CSS,jupyter%20notebook" />
-
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Seblessa&show_icons=true&locale=en&layout=compact&hide=jupyter%20notebook" alt="Seblessa" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Seblessa&show_icons=true&locale=en" alt="Seblessa" /></p>
