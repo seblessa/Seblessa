@@ -25,9 +25,11 @@ My main working station is a macbook pro 13. I use the hyper terminal with zsh.
 Here are the configurations:
 
 
+@include[hyper.js.md](hyper.js.md)
+
 <details><summary> .hyper.js </summary>
 <p>
-      @include[hyper.js.md](hyper.js.md)
+     
 </p>
 </details>
 
