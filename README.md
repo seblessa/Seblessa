@@ -1,9 +1,22 @@
 # About Me
 
-My name is Sebastião Santos Lessa and I am currently studying Artificial Intelligence and Data Science at Faculdade de Ciências da Universidade do Porto.
+Hello there! 👋 My name is Sebastião Santos Lessa, and I am passionate about Artificial Intelligence and Data Science.
+
+## Education
+
+🎓 I am currently pursuing a degree in Artificial Intelligence and Data Science at Faculdade de Ciências da Universidade do Porto.
+
+## Workstation
+
+💻 My main working station is a MacBook Pro M1 13", which provides a powerful environment for my coding and data analysis tasks.
+
+## Terminal and Shell Theme
+
+🖥️ For my command-line interface (CLI), I prefer using the [**hyper**](https://github.com/vercel/hyper) terminal with the "zsh" shell. It offers a great user experience and makes my development workflow more efficient.
+
+🎨 Currently, I'm using the [**powerlevel10k**](https://github.com/romkatv/powerlevel10k) theme for my shell. It not only looks stylish but also provides useful information and customization options to suit my needs.
 
 
-My main working station is a macbook pro m1 13". I use the hyper terminal with zsh. The theme I am currently using is the [powerlevel10k](https://github.com/romkatv/powerlevel10k).
 
 Here are the configurations:
 
