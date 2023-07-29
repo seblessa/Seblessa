@@ -27,7 +27,7 @@ Here are the configurations:
 
 <details><summary> .hyper.js </summary>
 <p>
-    @@include[hyper.js.md](includes/hyper.js.md)
+    @include[hyper.js.md](hyper.js.md)
 </p>
 </details>
 
