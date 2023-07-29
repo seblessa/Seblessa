@@ -1,6 +1,6 @@
 # About Me
 
-I am a bachelor's student of Artificial Intelligence and Data Science at Faculdade de Ciências da Universidade do Porto.
+My name is Sebastião Santos Lessa and I am currently studying Artificial Intelligence and Data Science at Faculdade de Ciências da Universidade do Porto.
 
 
 My main working station is a macbook pro m1 13". I use the hyper terminal with zsh. I use the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
