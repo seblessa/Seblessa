@@ -24,25 +24,6 @@ My main working station is a macbook pro 13. I use the hyper terminal with zsh.
 
 Here are the configurations:
 
-
-
-
-<details><summary> .hyper.js </summary>
-<p>
-    {% raw %}
-    {% include "hyper.js.md" %}
-    {% endraw %}
-</p>
-</details>
-
-<details><summary> .zshrc </summary>
-<p>
-
-</p>
-</details>
-
-<details><summary> .p10k.zsh </summary>
-<p>
-
-</p>
-</details>
+- [hyper.js](hyper.js)
+- [.zshrc](.zshrc)
+- [.p10k.zsh](.p10k.zsh)
