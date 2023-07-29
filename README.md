@@ -1,6 +1,6 @@
 # About Me
 
-Hello there! 👋 My name is Sebastião Santos Lessa, and I am passionate about Artificial Intelligence and Data Science.
+Hello there! My name is Sebastião Santos Lessa and I'm from Porto, Portugal.
 
 ## Education
 
