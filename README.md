@@ -20,7 +20,7 @@ I am a bachelor's student of Artificial Intelligence and Data Science at Faculda
 
 
 
-My main working station is a macbook pro m1 13". I use the hyper terminal with zsh. I use the [powerlevel0k](https://github.com/romkatv/powerlevel10k) theme.
+My main working station is a macbook pro m1 13". I use the hyper terminal with zsh. I use the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 
 Here are the configurations:
 
