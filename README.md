@@ -2,6 +2,15 @@
 
 I am a bachelor's student of Artificial Intelligence and Data Science at Faculdade de Ciências da Universidade do Porto.
 
+
+My main working station is a macbook pro m1 13". I use the hyper terminal with zsh. I use the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
+
+Here are the configurations:
+
+- [.hyper.js](.hyper.js)
+- [.zshrc](.zshrc)
+- [.p10k.zsh](.p10k.zsh)
+
 ## Stats
 
 <img src="https://komarev.com/ghpvc/?username=Seblessa&style=flat-square&color=blue" alt=""/>
@@ -18,12 +27,3 @@ I am a bachelor's student of Artificial Intelligence and Data Science at Faculda
    <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" title="Jupyter" alt="Jupyter" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/apple/apple-original.svg" title="Apple" alt="Apple" width="40" height="40"/>&nbsp;
 
-
-
-My main working station is a macbook pro m1 13". I use the hyper terminal with zsh. I use the [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
-
-Here are the configurations:
-
-- [.hyper.js](.hyper.js)
-- [.zshrc](.zshrc)
-- [.p10k.zsh](.p10k.zsh)
