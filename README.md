@@ -25,11 +25,13 @@ My main working station is a macbook pro 13. I use the hyper terminal with zsh.
 Here are the configurations:
 
 
-@include[hyper.js.md](hyper.js.md)
+
 
 <details><summary> .hyper.js </summary>
 <p>
-     
+    {% raw %}
+    {% include "hyper.js.md" %}
+    {% endraw %}
 </p>
 </details>
 
