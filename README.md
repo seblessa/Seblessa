@@ -20,9 +20,9 @@ Hello there! My name is Sebastião Santos Lessa and I'm from Porto, Portugal.
 
 Here are the configurations:
 
-- [.hyper.js](.hyper.js)
-- [.zshrc](.zshrc)
-- [.p10k.zsh](.p10k.zsh)
+- [hyper.js](.hyper.js)
+- [zshrc](.zshrc)
+- [p10k.zsh](.p10k.zsh)
 
 ## Stats
 
