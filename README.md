@@ -8,7 +8,7 @@ Hello there! My name is Sebastião Santos Lessa and I'm from Porto, Portugal.
 
 ## Workstation
 
-💻 My main working station is a MacBook Pro M1 13", which provides a powerful environment for my coding and data analysis tasks.
+💻 My main working station is a MacBook Pro M1 13", which provides a powerful environment for my coding and researching tasks.
 
 ## Terminal and Shell Theme
 
