@@ -116,10 +116,43 @@ alias zshconfig="code ~/.zshrc"
 alias themeconfig="code ~/.p10k.zsh"
 alias hyperconfig="code ~/.hyper.js"
 alias fcup="cd ~/OneDrive\ -\ Universidade\ do\ Porto"
+alias htop="sudo htop"
 alias python="python3"
 alias pip="pip3"
 alias brew_update="brew update && brew upgrade && brew cleanup"
+alias zaai="cd ~/Google\ Drive/My\ Drive/Projetos/ZAAI"
 
+
+
+helpBigDataconsole() {
+    echo "\nopenBigDataConsole              -> Opens the console"
+    echo "startBigDataConsole               -> Starts the console"
+    echo "statusBigDataConsole              -> Checks console status"
+    echo "stopBigDataConsole                -> Stops the console"
+    echo "sendBigDataConsole file.txt       -> Send file.txt to the console"
+    echo "retrieveBigDataConsole file.txt   -> Retrieve file.txt from the console\n"
+
+}
+
+
+alias openBigDataConsole="gcloud compute ssh --zone "europe-southwest1-a" "bigdata-vm" --project "famous-palisade-416918""
+alias startBigDataConsole="gcloud compute instances start --zone "europe-southwest1-a" "bigdata-vm" --project "famous-palisade-416918""
+alias statusBigDataConsole="gcloud compute instances list --zone "europe-southwest1-a" "bigdata-vm" --project "famous-palisade-416918""
+alias stopBigDataConsole="gcloud compute instances stop --zone "europe-southwest1-a" "bigdata-vm" --project "famous-palisade-416918""
+
+
+sendBigDataConsole() {
+    gcloud compute scp "$1" bigdata-vm:
+}
+
+retrieveBigDataConsole() {
+    gcloud compute scp bigdata-vm:"$1" "./"
+}
+
+
+
+
+export WEBOTS_HOME=/Applications/Webots.app
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
