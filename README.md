@@ -43,6 +43,7 @@ Hello there! My name is Sebastião Santos Lessa and I'm from Porto, Portugal.
   <img width="50" />
   <a href="https://www.numpy.org" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="40" alt="numpy logo"  />
   <a href="https://www.pandas.pydata.org" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas logo"  />
+    <a href="https://https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://github.com/scikit-learn/scikit-learn/blob/main/doc/logos/1280px-scikit-learn-logo.png" height="40" alt="scikit-learn logo"  />    
   <a href="https://www.pytorch.org" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="pytorch logo"  />
   <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="40" alt="tensorflow logo"  />
  <a href="https://unit8co.github.io/darts/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/unit8co/darts/master/static/images/darts-logo-trim.png" height="40" alt="darts logo"  />
