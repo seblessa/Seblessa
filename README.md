@@ -8,7 +8,7 @@ Hello there! My name is Sebastião Santos Lessa and I'm from Porto, Portugal.
 
 ## Terminal and Shell Theme
 
-🖥️ For my command-line interface (CLI), I prefer using the [*hyper*](https://github.com/vercel/hyper) terminal with the *zsh* shell. It offers a great user experience and makes my development workflow more efficient.
+🖥️ For my command-line interface (CLI), I prefer using the [*hyper*](https://github.com/vercel/hyper) terminal with the *zsh* shell. It offers a great user experience and makes my development workflow more efficient. With the [PowerLevel10k](https://github.com/romkatv/powerlevel10k) theme.
 
 
 
