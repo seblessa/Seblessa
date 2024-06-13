@@ -10,8 +10,6 @@ Hello there! My name is Sebastião Santos Lessa and I'm from Porto, Portugal.
 
 🖥️ For my command-line interface (CLI), I prefer using the [*hyper*](https://github.com/vercel/hyper) terminal with the *zsh* shell. It offers a great user experience and makes my development workflow more efficient.
 
-🎨 Currently, I'm using the [*powerlevel10k*](https://github.com/romkatv/powerlevel10k) theme for my shell. It not only looks stylish but also provides useful information and customization options to suit my needs.
-
 
 
 | Configurations:         | [hyper.js](.hyper.js) | [zshrc](.zshrc) | [p10k.zsh](.p10k.zsh) |
