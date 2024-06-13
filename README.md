@@ -6,10 +6,6 @@ Hello there! My name is Sebastião Santos Lessa and I'm from Porto, Portugal.
 
 🎓 I am currently pursuing a degree in Artificial Intelligence and Data Science at Faculdade de Ciências da Universidade do Porto.
 
-## Workstation
-
-💻 My main working station is a MacBook Pro M1 13", which provides a powerful environment for my coding and researching tasks.
-
 ## Terminal and Shell Theme
 
 🖥️ For my command-line interface (CLI), I prefer using the [*hyper*](https://github.com/vercel/hyper) terminal with the *zsh* shell. It offers a great user experience and makes my development workflow more efficient.
