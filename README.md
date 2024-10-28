@@ -4,7 +4,8 @@ Hello there! My name is Sebastião Santos Lessa and I'm from Porto, Portugal.
 
 ## Education
 
-🎓 I have a degree in Artificial Intelligence and Data Science from Faculdade de Ciências da Universidade do Porto.
+🎓 BSc in Artificial Intelligence and Data Science - 2021/2024 - [Faculdade de Ciências da Universidade do Porto](https://www.up.pt/portal/pt/fcup/).
+🦾 MSc in Artificial Intelligence - 2024/Ongoing - [Faculdade de Engenharia da Universidade do Porto](https://www.up.pt/portal/pt/feup/).
 
 ## Terminal and Shell Theme
 
