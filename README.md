@@ -2,6 +2,7 @@
 
 Hello there! My name is Sebastião Santos Lessa and I'm from Porto, Portugal.
 
+I'm currently working at **Inesc Tec** as a _Machine Learning Engineer_, focusing on **LLM-based conversational agents**, **multi-agent systems**, and **advanced time series forecasting/analysis**.
 ## Education
 
 🎓 BSc in Artificial Intelligence and Data Science - 2021/2024 - [Faculdade de Ciências da Universidade do Porto](https://www.up.pt/portal/pt/fcup/).
@@ -30,8 +31,6 @@ Hello there! My name is Sebastião Santos Lessa and I'm from Porto, Portugal.
 <div align="left">
   <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
   <a href="https://jupyter.org" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="40" height="40"/> </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql logo" width="40" height="40"/> </a>
   <img width="50" />
   <a href="https://docs.anaconda.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/anaconda/anaconda-original.svg" height="40" alt="anaconda logo"  />
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
