@@ -5,20 +5,31 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+# ALIAS
 
-# Path to your oh-my-zsh installation.
+alias zshconfig="code ~/.zshrc"
+alias themeconfig="code ~/.p10k.zsh"
+alias hyperconfig="code ~/.hyper.js"
+alias fcup="cd ~/OneDrive\ -\ Universidade\ do\ Porto"
+alias htop="sudo htop"
+alias python="python3"
+alias pip="pip3"
+alias brew_update="brew update && brew upgrade && brew cleanup"
+alias storage="sudo du -sh .[!.]* * | sort -h"
+alias la="ls -a"
+
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+# Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
+# load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-
-# ZSH_THEME="clean"
 ZSH_THEME="powerlevel10k/powerlevel10k"
-
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -51,7 +62,7 @@ zstyle ':omz:update' frequency 1
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -99,75 +110,11 @@ source $ZSH/oh-my-zsh.sh
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
-#   export EDITOR='mvim'
+#   export EDITOR='nvim'
 # fi
 
 # Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-
-alias zshconfig="code ~/.zshrc"
-alias themeconfig="code ~/.p10k.zsh"
-alias hyperconfig="code ~/.hyper.js"
-alias fcup="cd ~/OneDrive\ -\ Universidade\ do\ Porto"
-alias htop="sudo htop"
-alias python="python3"
-alias pip="pip3"
-alias brew_update="brew update && brew upgrade && brew cleanup"
-alias zaai="cd ~/Google\ Drive/My\ Drive/Projetos/ZAAI"
-
-
-
-helpBigDataconsole() {
-    echo "\nopenBigDataConsole              -> Opens the console"
-    echo "startBigDataConsole               -> Starts the console"
-    echo "statusBigDataConsole              -> Checks console status"
-    echo "stopBigDataConsole                -> Stops the console"
-    echo "sendBigDataConsole file.txt       -> Send file.txt to the console"
-    echo "retrieveBigDataConsole file.txt   -> Retrieve file.txt from the console\n"
-
-}
-
-
-alias openBigDataConsole="gcloud compute ssh --zone "europe-southwest1-a" "bigdata-vm" --project "famous-palisade-416918""
-alias startBigDataConsole="gcloud compute instances start --zone "europe-southwest1-a" "bigdata-vm" --project "famous-palisade-416918""
-alias statusBigDataConsole="gcloud compute instances list --zone "europe-southwest1-a" "bigdata-vm" --project "famous-palisade-416918""
-alias stopBigDataConsole="gcloud compute instances stop --zone "europe-southwest1-a" "bigdata-vm" --project "famous-palisade-416918""
-
-
-sendBigDataConsole() {
-    gcloud compute scp "$1" bigdata-vm:
-}
-
-retrieveBigDataConsole() {
-    gcloud compute scp bigdata-vm:"$1" "./"
-}
-
-
-
-
-export WEBOTS_HOME=/Applications/Webots.app
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/opt/homebrew/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh" ]; then
-        . "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh"
-    else
-        export PATH="/opt/homebrew/Caskroom/miniconda/base/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<source ~/powerlevel10k/powerlevel10k.zsh-theme
+# export ARCHFLAGS="-arch $(uname -m)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
