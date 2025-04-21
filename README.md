@@ -29,4 +29,4 @@ I'm currently working at **Inesc Tec** as a _Machine Learning Engineer_, focusin
 ## Languages and Tools
 
 
-[Python](https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn&theme=light) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Tools](https://skillicons.dev/icons?i=git,anaconda,latex&theme=light) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [SOs](https://skillicons.dev/icons?i=apple,linux,windows&theme=light)
+![Python](https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn&theme=light) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Tools](https://skillicons.dev/icons?i=git,anaconda,latex&theme=light) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![SOs](https://skillicons.dev/icons?i=apple,linux,windows&theme=light)
