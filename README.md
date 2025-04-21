@@ -22,9 +22,9 @@ I'm currently working at **Inesc Tec** as a _Machine Learning Engineer_, focusin
 
 <img src="https://komarev.com/ghpvc/?username=Seblessa&style=flat-square&color=blue" alt=""/>
 
-<p><img height="100em" align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Seblessa&exclude_repo=Seblessa&show_icons=true&locale=en&layout=compact&hide=jupyter%20notebook" alt="Seblessa" /></p>
+<p><img height="150em" align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Seblessa&exclude_repo=Seblessa&show_icons=true&locale=en&layout=compact&hide=jupyter%20notebook" alt="Seblessa" /></p>
 
-<p>&nbsp;<img height="100em" align="center" src="https://github-readme-stats.vercel.app/api?username=Seblessa&show_icons=true&locale=en" alt="Seblessa" /></p>
+<p>&nbsp;<img height="150em" align="center" src="https://github-readme-stats.vercel.app/api?username=Seblessa&show_icons=true&locale=en" alt="Seblessa" /></p>
 
 ## Languages and Tools
 
