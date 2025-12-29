@@ -38,11 +38,18 @@ Joint degree FCUP × FEUP · University of Porto
 
 ## Stats
 
+
+
+
 <img src="https://komarev.com/ghpvc/?username=Seblessa&style=flat-square&color=blue" alt=""/>
+
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=seblessa&theme=tokyonight" alt=""/>
+
 
 <p><img height="190em" align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Seblessa&exclude_repo=Seblessa&show_icons=true&locale=en&layout=compact&hide=jupyter%20notebook" alt="Seblessa" /></p>
 
-<p>&nbsp;<img height="190em" align="center" src="https://github-readme-stats.vercel.app/api?username=Seblessa&show_icons=true&locale=en" alt="Seblessa" /></p>
+<p>&nbsp;
 
 ## Languages and Tools
 
