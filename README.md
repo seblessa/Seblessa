@@ -1,13 +1,30 @@
-# About Me
+## About Me
 
-Hello there! My name is Sebastião Santos Lessa and I'm from Porto, Portugal.
+I’m **Sebastião Santos Lessa**, based in Porto, Portugal 🇵🇹.
 
-I'm currently working at **Inesc Tec** as a _Machine Learning Engineer_, focusing on **LLM-based conversational agents**, **multi-agent systems**, and **advanced time series forecasting/analysis**.
-## Education
+Professionally, I work as a **Generative AI Engineer**, building LLM based systems like conversational agents 💬, multi agent workflows 🧠🧩, and AI powered automation ⚙️🤖. A big part of my work lives in the world of **Retrieval Augmented Generation (RAG)** 🔎📚, from knowledge ingestion and embeddings to retrieval pipelines, prompt engineering, and evaluating grounded, reliable outputs in production.
 
-🎓 BSc in Artificial Intelligence and Data Science - 2021/2024 - [Faculdade de Ciências da Universidade do Porto](https://www.up.pt/portal/pt/fcup/).
+Alongside GenAI, I also work on **data science and machine learning projects** 📊📈, covering the full journey from data exploration and modelling to deployment and monitoring in real systems.
 
-🦾 MSc in Artificial Intelligence - 2024/Ongoing - [Faculdade de Engenharia da Universidade do Porto](https://www.up.pt/portal/pt/feup/).
+### Scientific and Research Interests 🧪📚
+
+From a scientific perspective, my academic focus is on **time series analysis and forecasting** ⏱️📉, which is also the core topic of my Master’s thesis. I’m especially interested in **foundation models for time series**, synthetic data generation, imputation, and modelling complex temporal behaviour in real world systems, with a strong focus on energy related domains ⚡.
+
+I enjoy working where theory meets practice 🧠➡️🌍, using rigorous methods while keeping a clear focus on applicability and measurable impact.
+
+### Research 📝🔬
+
+I am the author of a **peer reviewed research paper**, presented at **IEEE PowerTech 2025** ⚡🎓, focused on the use of **foundation models for time series imputation in energy systems**.
+
+Paper link 👉 [IEEE](https://ieeexplore.ieee.org/document/11180285)
+
+## Education 🎓
+
+🎓 **BSc in Artificial Intelligence and Data Science** 
+Faculdade de Ciências da Universidade do Porto
+
+🦾 **MSc in Artificial Intelligence**
+Faculdade de Engenharia da Universidade do Porto
 
 ## Terminal and Shell Theme
 
