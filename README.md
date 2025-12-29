@@ -20,11 +20,12 @@ Paper link 👉 [IEEE](https://ieeexplore.ieee.org/document/11180285)
 
 ## Education 🎓
 
-🎓 **BSc in Artificial Intelligence and Data Science** 
-Faculdade de Ciências da Universidade do Porto
+🎓 **BSc in Artificial Intelligence and Data Science**  
+Joint degree FCUP × FEUP · University of Porto
 
-🦾 **MSc in Artificial Intelligence**
-Faculdade de Engenharia da Universidade do Porto
+🦾 **MSc in Artificial Intelligence**  
+Joint degree FCUP × FEUP · University of Porto
+
 
 ## Terminal and Shell Theme
 
