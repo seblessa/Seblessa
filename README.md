@@ -1,30 +1,32 @@
 ## About Me
 
-I’m **Sebastião Santos Lessa**, based in Porto, Portugal 🇵🇹.
+I’m **Sebastião Santos Lessa**, a **Generative AI and Machine Learning Engineer** based in Porto, Portugal 🇵🇹.
 
-Professionally, I work as a **Generative AI Engineer**, building LLM based systems like conversational agents 💬, multi agent workflows 🧠🧩, and AI powered automation ⚙️🤖. A big part of my work lives in the world of **Retrieval Augmented Generation (RAG)** 🔎📚, from knowledge ingestion and embeddings to retrieval pipelines, prompt engineering, and evaluating grounded, reliable outputs in production.
+I build production focused GenAI systems that connect LLMs, backend services, cloud infrastructure, and enterprise workflows. My work includes conversational agents, agentic workflows, tool calling, Retrieval Augmented Generation, and AI powered automation.
 
-Alongside GenAI, I also work on **data science and machine learning projects** 📊📈, covering the full journey from data exploration and modelling to deployment and monitoring in real systems.
+I am particularly interested in how AI agents reason, use tools, maintain context, and execute complex workflows. I enjoy experimenting with autonomous and coding agents, while also designing reliable solutions that can be deployed, evaluated, and maintained in real environments.
 
-### Scientific and Research Interests 🧪📚
+Alongside GenAI, I work on machine learning and data science projects, covering the complete lifecycle from data exploration and modelling to deployment and monitoring.
 
-From a scientific perspective, my academic focus is on **time series analysis and forecasting** ⏱️📉, which is also the core topic of my Master’s thesis. I’m especially interested in **foundation models for time series**, synthetic data generation, imputation, and modelling complex temporal behaviour in real world systems, with a strong focus on energy related domains ⚡.
+## Research Interests
 
-I enjoy working where theory meets practice 🧠➡️🌍, using rigorous methods while keeping a clear focus on applicability and measurable impact.
+My academic work focuses on **time series analysis and forecasting**, particularly foundation models for time series, anomaly detection, synthetic data generation, imputation, and modelling temporal behaviour in energy systems.
 
-### Research 📝🔬
+I enjoy working where research meets engineering, combining rigorous experimentation with practical and measurable applications.
 
-I am the author of a **peer reviewed research paper**, presented at **IEEE PowerTech 2025** ⚡🎓, focused on the use of **foundation models for time series imputation in energy systems**.
+## Research
 
-Paper link 👉 [IEEE](https://ieeexplore.ieee.org/document/11180285)
+I authored a peer reviewed paper presented at **IEEE PowerTech 2025**, focused on using foundation models for time series imputation in energy systems.
 
-## Education 🎓
+📄 [Read the paper on IEEE](https://ieeexplore.ieee.org/document/11180285)
 
-🎓 **BSc in Artificial Intelligence and Data Science**  
-Joint degree FCUP × FEUP · University of Porto
+## Education
 
-🦾 **MSc in Artificial Intelligence**  
-Joint degree FCUP × FEUP · University of Porto
+🎓 **MSc in Artificial Intelligence**
+FCUP and FEUP, University of Porto
+
+🎓 **BSc in Artificial Intelligence and Data Science**
+FCUP and FEUP, University of Porto
 
 
 ## Terminal and Shell Theme
