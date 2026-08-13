@@ -6,13 +6,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 
-
-# KEYS
-
-export BINANCE_API_KEY="5pqcnojKWa86Cj9hSLMfPqZficozS86CcNXCOx3xV4n4EHk5spp8RH0F78ry7OAc"
-export BINANCE_API_SECRET="0xqsuNnP9sp57zZFLib4Be5Cekthv70YybyhhCnyBOjShjIEMofByKP7ozjjA633"
-
-
 # ALIAS
 
 alias start-n8n="tmux new-session -d -s n8n-session '~/Documents/Projects/n8n-local/start-n8n.sh'"
