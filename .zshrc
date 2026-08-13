@@ -6,35 +6,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 
-# ALIAS
-
-alias start-n8n="tmux new-session -d -s n8n-session '~/Documents/Projects/n8n-local/start-n8n.sh'"
-alias stop-n8n='tmux kill-session -t n8n-session'
-
-alias reverse_tunnel_ollama="ssh -R 11434:localhost:11434 seb@89.114.122.40 -p 2223"
-
-
-alias dcup="docker compose up --build -d"
-alias dcclean="docker compose build --no-cache"
-alias dcdown="docker compose down -v"
-alias dcreload="dcdown && dcup"
-alias dclogs="docker compose logs -f"
-
-alias dcrm='docker stop $(docker ps -q) && docker rm $(docker ps -aq)'
-
-
-alias git_sync_main="git push && git checkout main && git merge dev && git push && git checkout dev"
-
-
-alias dchelp='echo "
-Available Docker aliases:
-  dcup      → docker compose up --build -d
-  dcclean   → docker compose build --no-cache
-  dcdown    → docker compose down -v
-  dcreload  → dcdown && dcup
-  dcrm      → docker stop \$(docker ps -q) && docker rm \$(docker ps -aq)
-"'
-
 open_port() {
   if [ -z "$1" ]; then
     echo "Usage: open_port <port>"
@@ -62,12 +33,6 @@ alias pip="pip3"
 alias brew_update="brew update && brew upgrade && brew cleanup"
 alias storage="du -sh .[!.]* * 2>/dev/null | sort -hr"
 alias la="ls -a"
-
-
-export WEBOTS_HOME="/Applications/Webots.app/Contents"
-export PATH="$WEBOTS_HOME/bin:$PATH"
-export PYTHONPATH="$WEBOTS_HOME/lib/controller/python3.9"
-
 
 
 # If you come from bash you might have to change your $PATH.
