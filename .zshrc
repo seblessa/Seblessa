@@ -5,6 +5,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# Keep PATH entries unique as shell tools add their own paths.
+typeset -U path
 
 open_port() {
   if [ -z "$1" ]; then
@@ -35,8 +37,8 @@ alias storage="du -sh .[!.]* * 2>/dev/null | sort -hr"
 alias la="ls -a"
 
 
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+# Put personal and local tools first in PATH.
+path=("$HOME/bin" "$HOME/.local/bin" /usr/local/bin $path)
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -108,15 +110,17 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-git
-zsh-autosuggestions
-zsh-syntax-highlighting
-fast-syntax-highlighting)
+  git
+  zsh-autosuggestions
+  fast-syntax-highlighting
+)
 
 # Custom colors for autosuggestions and path highlighting.
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#c7ced8'
 
-source $ZSH/oh-my-zsh.sh
+[[ -d $HOME/.docker/completions ]] && fpath=("$HOME/.docker/completions" $fpath)
+
+source "$ZSH/oh-my-zsh.sh"
 
 FAST_HIGHLIGHT_STYLES[path]='fg=#ff8a80'
 FAST_HIGHLIGHT_STYLES[path-to-dir]='fg=#ff8a80,underline'
@@ -168,14 +172,8 @@ else
 fi
 unset __mamba_setup
 # <<< mamba initialize <<<
-# The following lines have been added by Docker Desktop to enable Docker CLI completions.
-fpath=(/Users/seb/.docker/completions $fpath)
-autoload -Uz compinit
-compinit
-# End of Docker CLI completions
-
 # Added by Antigravity
-export PATH="/Users/seb/.antigravity/antigravity/bin:$PATH"
+path=("$HOME/.antigravity/antigravity/bin" $path)
 
 # Local Codex helper commands
-export PATH="$HOME/.codex/bin:$PATH"
+path=("$HOME/.codex/bin" $path)
