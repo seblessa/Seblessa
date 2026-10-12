@@ -97,6 +97,8 @@ The [Hyper configuration documentation](https://hyper.is/#cfg) explains its two 
 
 Open a new terminal window to load the shell files. Restart Hyper after finishing running commands to apply all terminal settings, including ⌘+click for links. Hyper installs `hyper-transparent` from the `plugins` list automatically; it may need network access and a reload.
 
+The colour palette keeps 20% background transparency (`opacity: 0.8`). Prompt text, comments, suggestions, and selection use lighter text with dark highlight backgrounds. The contrast check uses [W3C's 4.5:1 text contrast threshold](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) and models a white wallpaper behind the window; it does not simulate macOS vibrancy. If you increase transparency, run `zsh tests/check.zsh` and check the result against your wallpaper.
+
 The default font is Menlo. If Powerlevel10k symbols look wrong, follow its [font instructions](https://github.com/romkatv/powerlevel10k#fonts), select the installed font in `.hyper.js`, and sync that change back to this repo.
 
 To roll back, copy the saved shell files from `backup_dir` to the home directory. If `hyper-app.js` exists, restore it to Hyper's application-directory config too.
@@ -183,7 +185,7 @@ gitleaks dir . --redact --no-banner
 Only continue if the scan exits successfully and the diff contains the intended public changes:
 
 ```sh
-git add .hyper.js .p10k.zsh .zshenv .zprofile .zshrc .gitignore Brewfile README.md init.md tests/check.zsh
+git add .hyper.js .p10k.zsh .zshenv .zprofile .zshrc .gitignore Brewfile README.md init.md tests/
 git diff --cached
 git commit -m "Update Mac configuration backup"
 git push origin main

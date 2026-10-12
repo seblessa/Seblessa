@@ -6,6 +6,7 @@ for file in .zshenv .zprofile .zshrc .p10k.zsh; do
   zsh -n "$repo_dir/$file"
 done
 node --check "$repo_dir/.hyper.js"
+node "$repo_dir/tests/contrast.js"
 
 # Test the real function with a mock: never start a public tunnel.
 eval "$(sed -n '/^open_port() {/,/^}/p' "$repo_dir/.zshrc")"

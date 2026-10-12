@@ -14,13 +14,21 @@ plugins=(git zsh-autosuggestions fast-syntax-highlighting)
 zstyle ':omz:update' mode auto
 zstyle ':omz:update' frequency 14
 COMPLETION_WAITING_DOTS=true
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#7F899B'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#ABB5C5'
 [[ ! -d "$HOME/.docker/completions" ]] || fpath=("$HOME/.docker/completions" $fpath)
 
 if [[ -r "$ZSH/oh-my-zsh.sh" ]]; then
   source "$ZSH/oh-my-zsh.sh"
-  FAST_HIGHLIGHT_STYLES[path]='fg=#F08080'
-  FAST_HIGHLIGHT_STYLES[path-to-dir]='fg=#F08080,underline'
+  FAST_HIGHLIGHT_STYLES[${FAST_THEME_NAME}path]='fg=#91B5FF'
+  FAST_HIGHLIGHT_STYLES[${FAST_THEME_NAME}path-to-dir]='fg=#91B5FF,underline'
+  FAST_HIGHLIGHT_STYLES[${FAST_THEME_NAME}comment]='fg=#ABB5C5'
+  FAST_HIGHLIGHT_STYLES[${FAST_THEME_NAME}correct-subtle]='fg=#A6C5FF'
+  # Keep highlight backgrounds dark so coloured text stays readable.
+  for _highlight in global-alias paired-bracket case-condition here-string-text subtle-bg; do
+    FAST_HIGHLIGHT_STYLES[${FAST_THEME_NAME}$_highlight]='bg=#2A3D55'
+  done
+  FAST_HIGHLIGHT_STYLES[${FAST_THEME_NAME}here-string-var]='fg=cyan,bg=#2A3D55'
+  unset _highlight
 fi
 [[ ! -r "$HOME/.p10k.zsh" ]] || source "$HOME/.p10k.zsh"
 
