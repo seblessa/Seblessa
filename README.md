@@ -2,41 +2,71 @@
 
 I’m **Sebastião Santos Lessa**, a **Generative AI and Machine Learning Engineer** based in Porto, Portugal 🇵🇹.
 
-I build GenAI systems that connect LLMs, backend services, cloud infrastructure, and enterprise workflows: conversational agents, tool calling, retrieval augmented generation, and automation.
+I build GenAI systems that connect LLMs, backend services, cloud infrastructure, and enterprise workflows. My work includes conversational agents, agentic workflows, tool calling, Retrieval Augmented Generation, and AI powered automation.
 
-I’m particularly interested in how agents reason, use tools, manage context, and execute complex workflows. My machine learning projects also cover time series forecasting and reinforcement learning.
+I am particularly interested in how AI agents reason, use tools, manage context, and execute complex workflows.
+
+Alongside GenAI, I work on machine learning and data science projects. My public projects cover areas such as time series forecasting, reinforcement learning, and applied machine learning.
+
+## Research Interests
+
+My academic work focuses on **time series analysis and forecasting**, particularly foundation models for time series, anomaly detection, synthetic data generation, imputation, and energy systems.
+
+I enjoy working where research meets engineering, combining experimentation with practical applications.
 
 ## Research
 
-My academic work focuses on **time series analysis and forecasting**, foundation models, anomaly detection, synthetic data, imputation, and energy systems.
-
 I authored a peer-reviewed paper presented at **IEEE PowerTech 2025**, focused on foundation models for time series imputation in energy systems.
 
-[Read the paper on IEEE](https://ieeexplore.ieee.org/document/11180285)
+📄 [Read the paper on IEEE](https://ieeexplore.ieee.org/document/11180285)
 
 ## Education
 
-- **MSc in Artificial Intelligence** — FCUP and FEUP, University of Porto.
-- **BSc in Artificial Intelligence and Data Science** — FCUP and FEUP, University of Porto.
+🎓 **MSc in Artificial Intelligence**  
+FCUP and FEUP, University of Porto
 
-## My Mac Setup
+🎓 **BSc in Artificial Intelligence and Data Science**  
+FCUP and FEUP, University of Porto
 
-I use [Hyper](https://hyper.is/), Zsh, [Oh My Zsh](https://ohmyz.sh/), and [Powerlevel10k](https://github.com/romkatv/powerlevel10k). This repo keeps my public configuration and a Homebrew software snapshot.
+## Terminal and Shell Theme
 
-| File | Purpose |
-| --- | --- |
-| [.hyper.js](.hyper.js) | Terminal colours, readable text, transparency, and scrollback. |
-| [.zshenv](.zshenv) | Shared paths for Volta and local tools. |
-| [.zprofile](.zprofile) | Homebrew, Docker Desktop, and JetBrains Toolbox paths. |
-| [.zshrc](.zshrc) | Plugins, aliases, environment managers, and local overrides. |
-| [.p10k.zsh](.p10k.zsh) | Two-line prompt with Git, environment, and cloud indicators. |
-| [Brewfile](Brewfile) | Homebrew applications and tools installed on 12 October 2026. |
-| [init.md](init.md) | Installation, restoration, shortcuts, and safe backup instructions. |
+🖥️ For my command line interface, I prefer using the [*Hyper*](https://github.com/vercel/hyper) terminal with the *zsh* shell and the [PowerLevel10k](https://github.com/romkatv/powerlevel10k) theme.
 
-[Set up or restore the Mac →](init.md)
+| Configurations | [hyper.js](.hyper.js) | [zshrc](.zshrc) | [p10k.zsh](.p10k.zsh) |
+|:--------------:|:---------------------:|:---------------:|:---------------------:|
 
-This is a **public configuration backup**. Credentials, SSH keys, cloud sessions, command history, project data, and private local settings stay outside Git.
+## Stats
+
+<table>
+  <tr>
+    <td align="center">
+      <img
+        src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=seblessa&theme=tokyonight"
+        alt="GitHub statistics"
+      />
+    </td>
+    <td align="center">
+      <img
+        src="https://github-readme-stats.vercel.app/api/top-langs?username=Seblessa&exclude_repo=Seblessa&show_icons=true&locale=en&layout=compact&hide=jupyter%20notebook"
+        alt="Most used languages"
+      />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left">
+      <img
+        src="https://komarev.com/ghpvc/?username=Seblessa&style=flat-square&color=blue"
+        alt="Profile views"
+      />
+    </td>
+  </tr>
+</table>
 
 ## Languages and Tools
 
-Python · PyTorch · TensorFlow · scikit-learn · Git · Conda · uv · Docker · LaTeX · macOS · Linux
+<p align="left">
+  <img
+    src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,git,anaconda,latex,apple,linux,windows&theme=light"
+    alt="Languages and tools"
+  />
+</p>
