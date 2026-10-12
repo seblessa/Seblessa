@@ -18,7 +18,7 @@ I enjoy working where research meets engineering, combining experimentation with
 
 I authored a peer-reviewed paper presented at **IEEE PowerTech 2025**, focused on foundation models for time series imputation in energy systems.
 
-📄 [Read the paper on IEEE](https://ieeexplore.ieee.org/document/11180285)
+[Read the paper on IEEE 📄](https://ieeexplore.ieee.org/document/11180285)
 
 ## Education
 
