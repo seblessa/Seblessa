@@ -1,0 +1,19 @@
+# Local settings, credentials and shell history.
+.zshrc.local
+.zprofile.local
+.zshenv.local
+.env
+.env.*
+.zsh_history
+.ssh/
+.aws/
+.config/
+*.pem
+*.key
+
+# Backups and generated files.
+*.backup*
+*.bak
+.config-backups/
+.DS_Store
+node_modules/

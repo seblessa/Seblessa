@@ -1,179 +1,72 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
+# Keep instant prompt before anything that can print to the terminal.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Keep PATH entries unique as shell tools add their own paths.
-typeset -U path
+typeset -U path fpath
+path=("$HOME/.codex/bin" "$HOME/.antigravity/antigravity/bin" "$HOME/bin" "$HOME/.local/bin" /usr/local/bin $path)
+export EDITOR='code --wait'
+export VISUAL="$EDITOR"
 
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME='powerlevel10k/powerlevel10k'
+plugins=(git zsh-autosuggestions fast-syntax-highlighting)
+zstyle ':omz:update' mode auto
+zstyle ':omz:update' frequency 14
+COMPLETION_WAITING_DOTS=true
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#7F899B'
+[[ ! -d "$HOME/.docker/completions" ]] || fpath=("$HOME/.docker/completions" $fpath)
+
+if [[ -r "$ZSH/oh-my-zsh.sh" ]]; then
+  source "$ZSH/oh-my-zsh.sh"
+  FAST_HIGHLIGHT_STYLES[path]='fg=#F08080'
+  FAST_HIGHLIGHT_STYLES[path-to-dir]='fg=#F08080,underline'
+fi
+[[ ! -r "$HOME/.p10k.zsh" ]] || source "$HOME/.p10k.zsh"
+
+# Share a local HTTP service through a temporary public Cloudflare tunnel.
 open_port() {
-  if [ -z "$1" ]; then
-    echo "Usage: open_port <port>"
-    return 1
+  if [[ $# != 1 || $1 != <1-65535> ]]; then
+    print -u2 'Usage: open_port <port from 1 to 65535>'
+    return 2
   fi
-  echo "Opening port $1 to the internet..."
-  cloudflared tunnel --url http://localhost:$1
+  print "Opening a public tunnel to localhost:$1. Stop it with Ctrl-C."
+  cloudflared tunnel --url "http://localhost:$1"
 }
 
-
-alias screen_share_ooh="ssh -N -L 5900:localhost:5900 sebs-macmini"
-
+alias screen_share_ooh='ssh -N -L 5900:localhost:5900 sebs-macmini'
 alias icloud='cd "$HOME/Library/Mobile Documents/com~apple~CloudDocs/Documents"'
+alias fcup='cd "$HOME/OneDrive - Universidade do Porto"'
+alias zshconfig='code ~/.zshrc'
+alias themeconfig='code ~/.p10k.zsh'
+alias hyperconfig='code ~/.hyper.js'
+alias status='btop'
+alias me='fastfetch'
+alias python='python3'
+alias pip='python3 -m pip'
+alias brew_update='brew update && brew upgrade && brew cleanup'
+alias storage='du -sh -- *(DN) 2>/dev/null | sort -hr'
+alias la='ls -a'
 
-alias zshconfig="code ~/.zshrc"
-alias themeconfig="code ~/.p10k.zsh"
-alias hyperconfig="code ~/.hyper.js"
-alias fcup="cd ~/OneDrive\ -\ Universidade\ do\ Porto"
-alias status="sudo btop"
-alias me="fastfetch"
-
-alias python="python3"
-alias pip="pip3"
-
-alias brew_update="brew update && brew upgrade && brew cleanup"
-alias storage="du -sh .[!.]* * 2>/dev/null | sort -hr"
-alias la="ls -a"
-
-
-# Put personal and local tools first in PATH.
-path=("$HOME/bin" "$HOME/.local/bin" /usr/local/bin $path)
-
-# Path to your Oh My Zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
-
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time Oh My Zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
-
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment one of the following lines to change the auto-update behavior
-# zstyle ':omz:update' mode disabled  # disable automatic updates
-zstyle ':omz:update' mode auto      # update automatically without asking
-# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
-
-# Uncomment the following line to change how often to auto-update (in days).
-zstyle ':omz:update' frequency 1
-
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# You can also set it to another string to have that shown instead of the default red dots.
-# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
-# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
-COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
-# see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
-  zsh-autosuggestions
-  fast-syntax-highlighting
-)
-
-# Custom colors for autosuggestions and path highlighting.
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#c7ced8'
-
-[[ -d $HOME/.docker/completions ]] && fpath=("$HOME/.docker/completions" $fpath)
-
-source "$ZSH/oh-my-zsh.sh"
-
-FAST_HIGHLIGHT_STYLES[path]='fg=#ff8a80'
-FAST_HIGHLIGHT_STYLES[path-to-dir]='fg=#ff8a80,underline'
-
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='nvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch $(uname -m)"
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/opt/homebrew/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh" ]; then
-        . "/opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh"
-    else
-        export PATH="/opt/homebrew/Caskroom/miniconda/base/bin:$PATH"
-    fi
+# Initialise environment managers only when installed.
+if (( $+commands[conda] )); then
+  if _conda_hook="$(command conda shell.zsh hook 2>/dev/null)"; then
+    eval "$_conda_hook"
+  elif [[ -r "${commands[conda]:A:h:h}/etc/profile.d/conda.sh" ]]; then
+    source "${commands[conda]:A:h:h}/etc/profile.d/conda.sh"
+  fi
+  unset _conda_hook
 fi
-unset __conda_setup
-# <<< conda initialize <<<
-
-# >>> mamba initialize >>>
-# !! Contents within this block are managed by 'micromamba shell init' !!
-export MAMBA_EXE='/opt/homebrew/bin/micromamba';
-export MAMBA_ROOT_PREFIX='/Users/seb/.local/share/mamba';
-__mamba_setup="$("$MAMBA_EXE" shell hook --shell zsh --root-prefix "$MAMBA_ROOT_PREFIX" 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__mamba_setup"
-else
-    alias micromamba="$MAMBA_EXE"  # Fallback on help from micromamba activate
+if (( $+commands[micromamba] )); then
+  export MAMBA_EXE="${commands[micromamba]}"
+  export MAMBA_ROOT_PREFIX="$HOME/.local/share/mamba"
+  if _mamba_hook="$("$MAMBA_EXE" shell hook --shell zsh --root-prefix "$MAMBA_ROOT_PREFIX" 2>/dev/null)"; then
+    eval "$_mamba_hook"
+  else
+    alias micromamba="$MAMBA_EXE"
+  fi
+  unset _mamba_hook
 fi
-unset __mamba_setup
-# <<< mamba initialize <<<
-# Added by Antigravity
-path=("$HOME/.antigravity/antigravity/bin" $path)
 
-# Local Codex helper commands
-path=("$HOME/.codex/bin" $path)
+# Machine-specific settings and credentials stay outside this public repo.
+[[ ! -r "$HOME/.zshrc.local" ]] || source "$HOME/.zshrc.local"
