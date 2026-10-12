@@ -22,45 +22,10 @@ I authored a peer-reviewed paper presented at **IEEE PowerTech 2025**, focused o
 
 ## Education
 
-🎓 **MSc in Artificial Intelligence**  
-FCUP and FEUP, University of Porto
-
-🎓 **BSc in Artificial Intelligence and Data Science**  
-FCUP and FEUP, University of Porto
-
-## Terminal and Shell Theme
-
-🖥️ For my command line interface, I prefer using the [*Hyper*](https://github.com/vercel/hyper) terminal with the *zsh* shell and the [PowerLevel10k](https://github.com/romkatv/powerlevel10k) theme.
-
-| Configurations | [hyper.js](.hyper.js) | [zshrc](.zshrc) | [p10k.zsh](.p10k.zsh) |
-|:--------------:|:---------------------:|:---------------:|:---------------------:|
-
-## Stats
-
-<table>
-  <tr>
-    <td align="center">
-      <img
-        src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=seblessa&theme=tokyonight"
-        alt="GitHub statistics"
-      />
-    </td>
-    <td align="center">
-      <img
-        src="https://github-readme-stats.vercel.app/api/top-langs?username=Seblessa&exclude_repo=Seblessa&show_icons=true&locale=en&layout=compact&hide=jupyter%20notebook"
-        alt="Most used languages"
-      />
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="left">
-      <img
-        src="https://komarev.com/ghpvc/?username=Seblessa&style=flat-square&color=blue"
-        alt="Profile views"
-      />
-    </td>
-  </tr>
-</table>
+| Degree | Institution |
+| --- | --- |
+| 🎓 **MSc in Artificial Intelligence** | FCUP and FEUP, University of Porto |
+| 🎓 **BSc in Artificial Intelligence and Data Science** | FCUP and FEUP, University of Porto |
 
 ## Languages and Tools
 
@@ -68,5 +33,45 @@ FCUP and FEUP, University of Porto
   <img
     src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,git,anaconda,latex,apple,linux,windows&theme=light"
     alt="Languages and tools"
+  />
+</p>
+
+## Terminal and Shell Theme
+
+🖥️ For my command line interface, I prefer using the [*Hyper*](https://github.com/vercel/hyper) terminal with the *zsh* shell and the [PowerLevel10k](https://github.com/romkatv/powerlevel10k) theme.
+
+| Configurations | Purpose |
+| --- | --- |
+| [hyper.js](.hyper.js) | Terminal appearance, colours, and transparency. |
+| [zshrc](.zshrc) | Shell plugins, aliases, and environment managers. |
+| [p10k.zsh](.p10k.zsh) | Prompt appearance and Git, environment, and cloud indicators. |
+| [zshenv](.zshenv) | Paths shared by Zsh sessions. |
+| [zprofile](.zprofile) | Homebrew and application command paths. |
+| [Brewfile](Brewfile) | Installed Homebrew tools and applications. |
+| [Setup guide](init.md) | Installation, restoration, and safe backups. |
+
+## Stats
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <img
+        src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=seblessa&theme=tokyonight"
+        alt="GitHub statistics"
+      />
+    </td>
+    <td align="center" valign="top" width="50%">
+      <img
+        src="https://github-readme-stats.vercel.app/api/top-langs?username=Seblessa&exclude_repo=Seblessa&show_icons=true&locale=en&layout=compact&hide=jupyter%20notebook"
+        alt="Most used languages"
+      />
+    </td>
+  </tr>
+</table>
+
+<p align="left">
+  <img
+    src="https://komarev.com/ghpvc/?username=Seblessa&style=flat-square&color=blue"
+    alt="Profile views"
   />
 </p>
