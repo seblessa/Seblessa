@@ -20,6 +20,10 @@ I authored a peer-reviewed paper presented at **IEEE PowerTech 2025**, focused o
 
 [Read the paper on IEEE 📄](https://ieeexplore.ieee.org/document/11180285)
 
+My master’s thesis focuses on **adaptive anomaly detection in energy consumption time series**, using probabilistic forecasting to account for changing consumption patterns.
+
+[View the thesis at U.Porto 📄](https://hdl.handle.net/10216/175807)
+
 ## Education
 
 | Degree | Institution |
