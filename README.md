@@ -31,15 +31,6 @@ My master’s thesis focuses on **adaptive anomaly detection in energy consumpti
 | 🎓 **MSc in Artificial Intelligence** | FCUP and FEUP, University of Porto |
 | 🎓 **BSc in Artificial Intelligence and Data Science** | FCUP and FEUP, University of Porto |
 
-## Languages and Tools
-
-<p align="left">
-  <img
-    src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,git,anaconda,latex,apple,linux,windows&theme=light"
-    alt="Languages and tools"
-  />
-</p>
-
 ## Terminal and Shell Theme
 
 🖥️ For my command line interface, I prefer using the [*Hyper*](https://github.com/vercel/hyper) terminal with the *zsh* shell and the [PowerLevel10k](https://github.com/romkatv/powerlevel10k) theme.
